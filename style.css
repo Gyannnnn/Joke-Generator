@@ -13,7 +13,7 @@
 }
 .container{    
     aspect-ratio: 1;
-    height: 90vh;
+    height: 80vh;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
