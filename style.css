@@ -10,10 +10,13 @@
     justify-content: center;
     align-items: center;
     padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{    
     aspect-ratio: 1;
-    height: 80vh;
+    height: 50vh;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -24,6 +27,7 @@
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0 0 1px #000, 0 1px 50px #000;
+    overflow: scroll;
 }
 .container h1{
     font-size: 50px;
@@ -36,10 +40,11 @@
 }
 
 #jokecont{
-    font-size: 30px;
+    font-size: 20px;
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    overflow: hidden;
     text-wrap: wrap;
     text-overflow: wrap;
 }
