@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+.container{    
+    aspect-ratio: 1;
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    padding: 0px 4vw;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #000, 0 1px 50px #000;
+}
+.container h1{
+    font-size: 50px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jokecont{
+    font-size: 30px;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-wrap: wrap;
+    text-overflow: wrap;
+}
+#btn{
+    padding: 1vw 2vw;
+    background-color: yellow;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
