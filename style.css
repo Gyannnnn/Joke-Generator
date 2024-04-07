@@ -9,14 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
 }
 .container{    
-    aspect-ratio: 1;
-    height: 50vh;
+    height: 60vh;
+    width: 80vh;    
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -27,7 +25,6 @@
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0 0 1px #000, 0 1px 50px #000;
-    overflow: scroll;
 }
 .container h1{
     font-size: 50px;
@@ -54,4 +51,20 @@
     border: none;
     border-radius: 25px;
     cursor: pointer;
+}
+
+@media(max-width:500px){
+    .container{
+        height: 100vh;
+        width: 100vw;
+        gap: 8vh;
+        overflow: scroll;
+    }
+    #jokecont{
+        text-wrap: wrap;
+        padding: 1vw;
+        font-size: 4vw;
+    }
+
+    
 }
